@@ -1,0 +1,118 @@
+* {
+    font-size: 9pt;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+
+body {
+    background-image: url("../img/light.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.contain {
+    background-image: url("../img/loginbg3.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    /*margin-left: 10%;*/
+    overflow: hidden;
+}
+
+.logintop {
+    /*background-color: #1c77ac;*/
+    background-position: center;
+    margin-top: 50pt;
+    width: 100%;
+    height: 40px;
+}
+
+.loginmid {
+    /*background-color: #1c77ac;*/
+    background-position: center;
+    width: 100%;
+    height: 300pt;
+    background-repeat: no-repeat;
+}
+
+.loginbot {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    text-align: center;
+}
+
+.logindiv {
+    background-image: url("../img/logininfo3.png");
+    background-repeat: no-repeat;
+    margin-top: 8%;
+    margin-left: 30%;
+    width: 692px;
+    height: 373px;
+}
+
+.logindiv ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.logindiv ul li {
+    margin: 0;
+    list-style: none;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 0;
+    padding-top: 25px;
+}
+
+.loginform {
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-top: 70px;
+    height: 250px;
+    width: 405px;
+}
+
+.loginuser {
+    background-image: url("../img/loginuser.png");
+    background-repeat: no-repeat;
+    padding-left: 44px;
+    border: none;
+    width: 299px;
+    height: 48px;
+    font-size: 14px;
+}
+
+.usersubmit{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 12%;
+    height: 25pt;
+}
+
+.loginpwd{
+    background-image: url("../img/loginpassword.png");
+    background-repeat: no-repeat;
+    padding-left: 44px;
+    border: none;
+    width: 299px;
+    height: 48px;
+    font-size: 14px;
+}
+
+.loginbtn {
+    width: 111px;
+    height: 35px;
+    background: url("../img/buttonbg.png") repeat-x;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    line-height: 35px;
+}
