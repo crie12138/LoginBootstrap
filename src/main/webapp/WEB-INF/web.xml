@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xis="http://www.w3.org/2001/XMLSchema-instance"
+         xis:schemaLocation="http://java.sun.com/xml/ns/javaee
+         http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>client</display-name>
+
+  <!--2.配置前置控制器 -->
+  <servlet>
+    <servlet-name>ClientDispatcherServlet</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:applicationContext.xml</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClientDispatcherServlet</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+  <!--3.欢迎文件-->
+  <welcome-file-list>
+    <welcome-file>/WEB-INF/jsp/login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
